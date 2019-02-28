@@ -3,6 +3,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/addnewuser.feature", tags = "@current")
+@CucumberOptions(features = "src/test/resources/features/addnewuser.feature")
 public class AddNewUserRunner {
 }
